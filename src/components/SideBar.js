@@ -24,8 +24,8 @@ function SideBar() {
   return (
     <Container fluid className="p-0">
         <div
-          className="d-flex flex-column flex-shrink-0 text-bg-dark sidebar"
-          style={{ width: "20vw", height: "92vh", marginTop: "8vh" }}
+          className="d-flex flex-column sidebar"
+          style={{ width: "20vw", height: "92vh", position:'inherit' }}
         >
           <a
             className="d-flex text-white text-decoration-none p-3"
