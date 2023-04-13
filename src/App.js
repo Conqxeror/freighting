@@ -5,20 +5,23 @@ import LogIn from "./components/LogIn";
 import FgPass from "./components/FgPass";
 import Hnav from "./components/Hnav";
 import SideBar from "./components/SideBar";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div >
+    <div>
       <Hnav />
       <div className="d-flex">
-      <div >
-      <SideBar />
-      </div>
-      <div>
-      <Home />
-      <LogIn />
-      <FgPass />
-      </div>
+        <div>
+          <SideBar />
+        </div>
+        <Routes>
+          <div className="w-100 align-items-center flex-row">
+            <Route path element={<Home />} />
+            <Route path element={<LogIn />} />
+            <Route path element={<FgPass />} />
+          </div>
+        </Routes>
       </div>
     </div>
   );
