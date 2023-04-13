@@ -1,13 +1,14 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
 
 function Home() {
   return (
     <>
-    <div className="ps-50">
+    <Container fluid>
       <div>Click on Profile for login page</div>
       <div>Click on Trip For Trip Layout Page</div>
       <div>Click on search for seacrh Layout</div>
-      </div>
+      </Container>
     </>
   );
 }

@@ -4,6 +4,7 @@ import Alert from "react-bootstrap/Alert";
 import Container from "react-bootstrap/esm/Container";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import Hero from "./images/hero.png";
 
 function LogIn() {
   return (
@@ -11,9 +12,9 @@ function LogIn() {
       <Container fluid>
         <Card className="w-100 d-flex my-2">
           <Card.Body className="d-flex gap-2 justify-content-start w-100 position-relative">
-            <i class="bi bi-key "></i>
+            <i className="bi bi-key "></i>
             <h5>Change Password</h5>
-            <i class="bi bi-arrow-down-short position-absolute end-0 fs-3"></i>
+            <i className="bi bi-arrow-down-short position-absolute end-0 fs-3"></i>
           </Card.Body>
         </Card>
         <Alert key="danger" variant="danger">
@@ -23,8 +24,8 @@ function LogIn() {
           <Card className="w-50">
             <div className="d-flex justify-content-between mt-3">
               <img
-                src="../assets/head.png"
-                alt="head"
+                src={Hero}
+                alt="Hero"
                 style={{ height: "30px", width: "100px", marginLeft: "30px" }}
               />
               <h6
@@ -73,16 +74,21 @@ function LogIn() {
                 </Form.Group>
 
                 <div className="d-flex justify-content-between align-items-center">
-                  <div className="bg-dark" style={{height:'5px', content:'', width:'45%'}}>
-                  </div>
+                  <div
+                    className="bg-dark"
+                    style={{ height: "5px", content: "", width: "45%" }}
+                  ></div>
                   <h6>or</h6>
-                  <div className="bg-dark" style={{height:'5px', content:'', width:'45%'}}>
-                  </div>
+                  <div
+                    className="bg-dark"
+                    style={{ height: "5px", content: "", width: "45%" }}
+                  ></div>
                 </div>
 
                 <div className="d-flex justify-content-between my-3">
                   <h6 className="text-center">
-                    Dont have an account yet? <a href="/">Create Free Account.</a>
+                    Dont have an account yet?{" "}
+                    <a href="/">Create Free Account.</a>
                   </h6>
                 </div>
               </Form>
