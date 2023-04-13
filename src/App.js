@@ -13,13 +13,13 @@ function App() {
     <>
       <Hnav />
       <div className="d-flex">
-      <SideBar />
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="login" element={<LogIn />} />
-        <Route path="fgpass" element={<FgPass />} />
-        <Route path="trip" element={<Trip />} />
-      </Routes>
+        <SideBar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="login" element={<LogIn />} />
+          <Route path="fgpass" element={<FgPass />} />
+          <Route path="trip" element={<Trip />} />
+        </Routes>
       </div>
     </>
   );
