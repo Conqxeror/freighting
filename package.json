@@ -1,8 +1,8 @@
 {
-  "name": "frieghting",
+  "name": "freighting",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://conqxeror.github.io",
+  "homepage": "https://conqxeror.github.io/freighting",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
