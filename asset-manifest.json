@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Conqxeror/freighting/static/css/main.1e879504.css",
-    "main.js": "/Conqxeror/freighting/static/js/main.3c48a5da.js",
-    "static/js/787.4598e3f4.chunk.js": "/Conqxeror/freighting/static/js/787.4598e3f4.chunk.js",
-    "index.html": "/Conqxeror/freighting/index.html",
-    "main.1e879504.css.map": "/Conqxeror/freighting/static/css/main.1e879504.css.map",
-    "main.3c48a5da.js.map": "/Conqxeror/freighting/static/js/main.3c48a5da.js.map",
-    "787.4598e3f4.chunk.js.map": "/Conqxeror/freighting/static/js/787.4598e3f4.chunk.js.map"
+    "main.css": "/freighting/static/css/main.1e879504.css",
+    "main.js": "/freighting/static/js/main.fdea2ab2.js",
+    "static/js/787.4598e3f4.chunk.js": "/freighting/static/js/787.4598e3f4.chunk.js",
+    "index.html": "/freighting/index.html",
+    "main.1e879504.css.map": "/freighting/static/css/main.1e879504.css.map",
+    "main.fdea2ab2.js.map": "/freighting/static/js/main.fdea2ab2.js.map",
+    "787.4598e3f4.chunk.js.map": "/freighting/static/js/787.4598e3f4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1e879504.css",
-    "static/js/main.3c48a5da.js"
+    "static/js/main.fdea2ab2.js"
   ]
 }
